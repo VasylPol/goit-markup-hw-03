@@ -192,8 +192,7 @@ p {
 
 /* <!-- Секція видів послуг  --> */
 
-.product,
-.team-section {
+.section.product{
     padding-top: 0;
 }
 
@@ -239,6 +238,7 @@ p {
     flex-basis: 270px;
 }
 
+
 /* Спільні стилі заголовків */
 .our-product-title, .our-team {
     font-weight: 700;
@@ -264,8 +264,6 @@ p {
     line-height: 1.18;
 
     color: var(--primary-text-color);
-
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -274,8 +272,6 @@ p {
     line-height: 1.18;
 
     color: var(--secondary-text-color);
-
-    margin-bottom: 30px;
 }
 
 .team-item {  
@@ -285,11 +281,11 @@ p {
     border-radius: 0px 0px 4px 4px;
 }
 
-.our-team {
-    padding-top: 94px;
+
+.team-content {
+    padding-top: 30px;
+     padding-bottom: 30px;
 }
-
-
 
 
 
@@ -324,9 +320,10 @@ p {
 .portfolio-filters {
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
-.portfolio-filters:not(:last-child) {
+
+.filter-item:not(:last-child) {
     margin-right: 8px;
 }
 
